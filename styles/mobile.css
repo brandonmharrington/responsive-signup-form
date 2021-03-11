@@ -19,7 +19,7 @@ body {
 
 .signup__form-trial {
   background-color: var(--blue);
-  padding: 16px 80px;
+  padding: 16px 60px;
   margin-bottom: 25px;
   border-radius: 8px;
   box-shadow: 0 8px rgba(0, 0, 0, 0.2);
@@ -51,9 +51,10 @@ body {
 
 .signup__form-terms {
   color: var(--grayish-blue);
-  font-size: 0.75rem;
+  font-size: 0.65rem;
+  margin: 0 auto;
   margin-top: 20px;
-  text-align: center;
+  width: 80%;
 }
 
 .signup__form-terms a {

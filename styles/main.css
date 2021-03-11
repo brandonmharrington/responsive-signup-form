@@ -7,7 +7,6 @@
 }
 
 body {
-  overflow: hidden;
   background-color: var(--red);
   background-image: url('../images/bg-intro-desktop.png');
   height: 100vh;
@@ -15,6 +14,14 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #fff;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {
