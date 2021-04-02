@@ -13,10 +13,15 @@
 }
 
 html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
   font-size: 16px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #fff;
-  height: 100%;
+  margin: 0 auto;
 }
 
 #intro {
@@ -34,7 +39,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
   flex-direction: column;
   text-align: center;
   padding: 0 30px;
@@ -191,7 +195,14 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: var(--dark-blue);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution a {
+  color: var(--blue);
+  font-weight: bold;
 }
 /*****************************************************/
 
