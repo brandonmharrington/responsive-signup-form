@@ -1,4 +1,3 @@
-# Frontend Mentor - Intro component with sign up form
 Task Title: Responsiveness and Media Queries
 Part Time
 Frontend - HTML/CSS/JavaScript
